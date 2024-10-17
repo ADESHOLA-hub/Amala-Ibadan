@@ -1,0 +1,111 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.checkout-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.checkout-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Gap between billing and order details */
+}
+
+.billing-info {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.order-details {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff; /* White background for inputs */
+}
+
+.billing-button,
+.checkout-button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.billing-button:hover,
+.checkout-button:hover {
+    background-color: #218838; /* Darker shade on hover */
+}
+
+.cart-items {
+    margin-bottom: 20px;
+}
+
+.cart-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-item:last-child {
+    border-bottom: none; /* Remove border from last item */
+}
+
+.total-price {
+    text-align: right;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.total-price h3 {
+    margin: 0; /* Remove default margin */
+}
+
